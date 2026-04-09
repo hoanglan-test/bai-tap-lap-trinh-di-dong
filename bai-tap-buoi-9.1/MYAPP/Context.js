@@ -10,7 +10,7 @@ import {
 import { Image } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 /* =========================
    1. TẠO CONTEXT
 ========================= */
@@ -202,6 +202,16 @@ function AccountScreen() {
   );
 }
 
+const Tab = createBottomTabNavigator();
+
+function BottomTabs() {
+  return (
+    <Tab.Navigator>
+      <Tab.Screen name="Explorer" component={HomeScreen}/>
+      <Tab.Screen name="Account" component={AccountScreen}/>
+    </Tab.Navigator>
+  );
+}
 /* =========================
    5. NAVIGATION
 ========================= */
@@ -224,11 +234,13 @@ function AppNavigator() {
             options={{headerShown:false}}
           />
         ) : (
-          <>
-            <Stack.Screen name="Explorer" component={HomeScreen}/>
-            <Stack.Screen name="Account" component={AccountScreen}/>
-          </>
+          <Stack.Screen 
+            name="Main" 
+            component={BottomTabs}
+            options={{headerShown:false}}
+          />
         )}
+
 
       </Stack.Navigator>
 
