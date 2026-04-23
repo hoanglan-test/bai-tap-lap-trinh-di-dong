@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Caffe Mocha",
+    "type": "Deep Foam",
+    "price": 4.53,
+    "rating": 4.8,
+    "reviews": 230,
+    "description": "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk...",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=1000"
+  },
+  {
+    "id": "2",
+    "name": "Flat White",
+    "type": "Espresso",
+    "price": 3.53,
+    "rating": 4.8,
+    "reviews": 120,
+    "description": "Fresh espresso with velvety steamed milk...",
+    "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=1000"
+  },
+  {
+    "id": "3",
+    "name": "Dark Latte Art",
+    "type": "Espresso",
+    "price": 3.53,
+    "rating": 4.8,
+    "reviews": 120,
+    "description": "Fresh espresso with velvety steamed milk...",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1000"
+  },
+  {
+    "id": "4",
+    "name": "Caramel Macchiato",
+    "type": "Espresso",
+    "price": 3.53,
+    "rating": 4.8,
+    "reviews": 120,
+    "description": "Fresh espresso with velvety steamed milk...",
+    "image": "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=1000"
+  }
+]
